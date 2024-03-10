@@ -1,0 +1,238 @@
+/* Reseteo de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Body */
+.body{
+    font-family: "Poppins", sans-serif;
+    color: #171717;
+}
+
+/* Estilos Header */
+.header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC ;
+    padding: 25px 135px;
+
+}
+.header__logo{
+    width: 55px;
+    height: 55px;
+
+}
+.header__brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Estilos sección novedades */
+.novedades__container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 55px;
+    padding: 15px;
+}
+.section-titles{
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 70px;
+    
+}
+.novedades__articles{
+    display: flex;
+    justify-content: space-evenly;
+}
+.novedades__article-principal{
+   
+    margin: 30px;
+}
+.novedades__article-secundario{
+    
+    margin: 30px;
+}
+
+/* Estilos Cards novedades */
+.card__img{
+    width: 603px;
+    height: 314px ;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+.card__body-small{
+    font-weight: 400;
+    font-size: 18px;
+}
+.card__body-title{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tags-footer-card{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.tags-footer-card__img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.tags-footer-card__text{
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* Estilos Cards novedades horizontales */
+.card--horizontal{
+    display: flex;
+}
+.card__img--horizontal{
+    width: 189px;
+    height: 145px;
+}
+.card__body--horizontal{
+    margin: 0 30px;
+}
+.card__body-small--horizontal{
+    font-size: 16px;
+}
+.card__body-title--horizontal{
+    font-size: 20px;
+   
+}
+.tags-footer-card__img--horizontal{
+    width: 1.8rem;
+}
+.tags-footer-card__text--horizontal{
+    font-size: 16px;
+}
+
+/* Estilos hr divisores de secciones */
+.divisores-hr{
+    color: #CCCCCC ;
+}
+
+/* Estilos seccion principal */
+.principal{
+    display: flex;
+    margin: 70px;
+}
+
+/* Estilos contenedores seccion cards */
+.principal-populares{
+    display: flex;
+    flex-direction: column;
+}
+.principal-container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    gap: 20px;
+}
+
+/* Estilos cards principales */
+.card__img--principal{
+    width: 298px;
+    height: 200px;
+}
+.card__body-small--principal{
+    font-size: 16px;
+}
+.card__body-title--principal{
+    font-size: 20px;
+}
+.tags-footer-card__text--principal{
+    font-size: 16px;
+}
+.tags-footer-card-principal{
+    margin-top: 40px;
+}
+
+/* Estilos sección categorias (widgets) */
+.principal-categorias-widgets{
+    padding-right: 40px;
+}
+.section-titles--categoria{
+    text-align: start;
+    margin-bottom: 15px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.box__title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.box__img{
+    width: 25%;
+    height: auto;
+}
+.box--html{
+    background-color:#E93E30;
+}
+.box--js{
+    background-color: #F7E018;
+}
+.box--css{
+    background-color: #299ED5;
+}
+.box--react{
+    background-color: #292C33;
+}
+.box--vue{
+    background-color: #67C770;
+}
+.box--bootstrap{
+    background-color: #563D7C;
+}
+.principal-categorias-widgets__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+/* Estilos footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCCCCC ;
+}
+.footer__div-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 25px 135px;
+    width: 75%;
+}
+.footer__logo{
+    width: 55px;
+    height: 55px;
+}
+.footer__brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer__div-parrafo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.footer__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+}
